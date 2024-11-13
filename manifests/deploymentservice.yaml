@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: backend-app
-        image: oussamasebai/emarkethub:3
+        image: oussamasebai/emarkethub:7
         ports:
         - containerPort: 8002
 ---
