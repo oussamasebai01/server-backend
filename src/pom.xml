@@ -6,16 +6,22 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>2.7.0</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath/> 
 	</parent>
 	<groupId>com.nadherarroum</groupId>
 	<artifactId>server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>server</name>
 	<description>Server manager app</description>
-	<properties>
-		<java.version>1.8</java.version>
-	</properties>
+    <properties>
+        <java.version>11</java.version>
+        <hibernate.dialect>serverps_Project</hibernate.dialect>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <sonar.projectKey>com.nadherarroum:server</sonar.projectKey>
+		<sonar.host.url>http://192.168.100.199:9000/</sonar.host.url>
+		<sonar.login>squ_1e821f67b158f541d9f05a5343dbacf3c1dc1cc1</sonar.login>
+    </properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
