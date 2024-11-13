@@ -20,7 +20,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <sonar.projectKey>com.nadherarroum:server</sonar.projectKey>
 		<sonar.host.url>http://192.168.100.199:9000/</sonar.host.url>
-		<sonar.login>squ_1e821f67b158f541d9f05a5343dbacf3c1dc1cc1</sonar.login>
+		<sonar.login>squ_f2065f02e725049da1b27d40edb41a466c5cc970</sonar.login>
     </properties>
 	<dependencies>
 		<dependency>
