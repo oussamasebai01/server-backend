@@ -27,7 +27,7 @@ import static org.springframework.http.MediaType.IMAGE_PNG_VALUE;
 @RestController
 @RequestMapping("/server")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "*", maxAge = 3600)
+@CrossOrigin(origins = "*")
 public class ServerResource {
 
     private final ServerServiceImpl serverService;
