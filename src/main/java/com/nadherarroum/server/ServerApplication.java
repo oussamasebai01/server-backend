@@ -34,7 +34,7 @@ public class ServerApplication {
 		SpringApplication.run(ServerApplication.class, args);
 	}
 
-	@Bean
+	/*@Bean
 	CommandLineRunner run (ServerRepo serverRepo){
 		return args -> {
 			serverRepo.save(new Server(
@@ -62,7 +62,7 @@ public class ServerApplication {
 					Status.SERVER_UP)
 			);
 		};
-	}
+	}*/
 
 //	@Bean
 //	public FilterRegistrationBean corsFilter() {
